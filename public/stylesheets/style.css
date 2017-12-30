@@ -1,0 +1,64 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg/2000px-Pierre_ciseaux_feuille_l%C3%A9zard_spock_aligned.svg.png');
+    background-size: 32%;
+    text-align: center;
+}
+
+a {
+    color: #00B7FF;
+}
+
+button {
+    padding: 15px 8px;
+    margin: 5px;
+    font: 26px Rockwell;
+}
+
+#drawbtn {
+    text-align: center;
+}
+
+#weaponsdiv {
+
+}
+
+#rockbtn {
+    /*background: url('/images/boulder2.jpg');*/
+}
+
+div {
+    font: 20px Rockwell;
+}
+
+#countdown {
+    font: 40px Rockwell;
+}
+
+h1, #rulesDiv, #messageLog {
+    display: table;
+    background: rgba(194, 213, 255, 0.8);
+    padding: 10px;
+
+    width: auto;
+    height: auto;
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+
+
+/*helpers:*/
+/*http://stackoverflow.com/questions/18069926/multiple-divs-with-background-color-behind-text*/
+/*http://stackoverflow.com/questions/9377890/how-to-change-background-not-text-color-opacity-with-javascript
+ http://stackoverflow.com/questions/356809/best-way-to-center-a-div-on-a-page-vertically-and-horizontally
+
+*/
